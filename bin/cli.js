@@ -29,6 +29,10 @@ async function main() {
         {
           name: '💼 Career Memory (untuk CV, portofolio, & lamaran kerja)',
           value: 'career'
+        },
+        {
+          name: '🎥 Content Creator Memory (untuk ideasi, scripting, & manajemen konten)',
+          value: 'content-creator'
         }
       ]
     },

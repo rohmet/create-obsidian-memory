@@ -62,6 +62,7 @@ CLI akan menampilkan menu interaktif:
   🔬 Research Memory (untuk skripsi / tesis / paper ilmiah)
   📝 Theory Assignment Memory (untuk tugas esai / kajian literatur)
   💼 Career Memory (untuk CV, portofolio, & lamaran kerja)
+  🎥 Content Creator Memory (untuk ideasi, scripting, & manajemen konten)
 
 ? Masukkan nama folder/direktori tujuan (tekan Enter untuk direktori saat ini): .
 
@@ -78,7 +79,7 @@ Langkah selanjutnya:
 
 ---
 
-## 📦 4 Template Yang Tersedia
+## 📦 5 Template Yang Tersedia
 
 ### 🌐 1. Web Project Memory
 > Untuk pengembangan aplikasi web/software — vibe coding, Next.js, fullstack, backend, dsb.
@@ -196,6 +197,34 @@ my-career/
 |---|---|---|
 | **Build Mode** | Setelah selesai proyek baru | *"Tambahkan proyek X ke memoryku"* |
 | **Application Mode** | Mau melamar kerja | *"Saya mau lamar posisi ini: [paste JD]"* |
+
+---
+
+### 🎥 5. Content Creator Memory
+> Untuk YouTuber, TikToker, Blogger, dan kreator konten lainnya untuk membantu ideasi, scripting, dan manajemen konten.
+
+**Struktur yang dihasilkan:**
+```
+content-creator/
+├── AGENTS.md               ← AI entry point (Instruksi persona AI & alur kerja)
+└── .memory/
+    ├── brand-identity.md   ← Niche, target audiens, brand voice, visual guidelines
+    ├── content-pipeline.md ← Kanban board status konten (Ide, Scripting, Produksi, Rilis)
+    ├── ideas-backlog.md    ← Tempat menampung ide-ide mentah
+    ├── platforms.md        ← Strategi untuk tiap platform
+    ├── analytics.md        ← Tracking performa & insight
+    ├── scripts/
+    │   └── TEMPLATE.md     ← Template standar untuk naskah
+    ├── decisions/
+    │   └── CDC-XXX.md      ← Content Decision Records
+    └── sessions/
+        └── YYYY-MM-DD.md   ← Log sesi kerja harian
+```
+
+**Cocok untuk:**
+- Content Creator di YouTube, TikTok, Instagram
+- Penulis Blog atau Newsletter
+- Manajemen jadwal produksi konten dengan bantuan AI
 
 ---
 
