@@ -33,6 +33,10 @@ async function main() {
         {
           name: '🎥 Content Creator Memory (untuk ideasi, scripting, & manajemen konten)',
           value: 'content-creator'
+        },
+        {
+          name: '📓 Notes Memory (untuk Personal Knowledge Management & Second Brain)',
+          value: 'notes'
         }
       ]
     },

@@ -63,6 +63,7 @@ CLI akan menampilkan menu interaktif:
   📝 Theory Assignment Memory (untuk tugas esai / kajian literatur)
   💼 Career Memory (untuk CV, portofolio, & lamaran kerja)
   🎥 Content Creator Memory (untuk ideasi, scripting, & manajemen konten)
+  📓 Notes Memory (untuk Personal Knowledge Management & Second Brain)
 
 ? Masukkan nama folder/direktori tujuan (tekan Enter untuk direktori saat ini): .
 
@@ -79,7 +80,7 @@ Langkah selanjutnya:
 
 ---
 
-## 📦 5 Template Yang Tersedia
+## 📦 6 Template Yang Tersedia
 
 ### 🌐 1. Web Project Memory
 > Untuk pengembangan aplikasi web/software — vibe coding, Next.js, fullstack, backend, dsb.
@@ -225,6 +226,35 @@ content-creator/
 - Content Creator di YouTube, TikTok, Instagram
 - Penulis Blog atau Newsletter
 - Manajemen jadwal produksi konten dengan bantuan AI
+
+---
+
+### 📓 6. Notes Memory
+> Untuk Personal Knowledge Management (PKM), Second Brain, dan Zettelkasten/Atomic Notes.
+
+**Struktur yang dihasilkan:**
+```
+notes-workspace/
+├── AGENTS.md                   ← AI entry point (aturan sintesis, taksonomi, peran AI)
+└── .memory/
+    ├── system-prompt.md        ← Metodologi PKM (Hybrid Zettelkasten/MOC), aturan tagging & linking
+    ├── moc-index.md            ← Map of Content utama (peta hub topik & konsep)
+    ├── inbox-backlog.md        ← Antrean catatan mentah/ide cepat yang belum diolah
+    ├── reading-digest.md       ← Rangkuman buku, artikel, podcast, atau media
+    ├── atomic-templates/       ← Template standar untuk catatan
+    │   ├── atomic-concept.md   ← Template 1 ide = 1 catatan (Zettelkasten style)
+    │   ├── daily-log.md        ← Template catatan harian & refleksi
+    │   └── resource-note.md    ← Template catatan sumber bacaan
+    ├── decisions/
+    │   └── NDC-XXX.md          ← Note Decision Records (perubahan arsitektur catatan)
+    └── sessions/
+        └── YYYY-MM-DD.md       ← Log sesi kerja harian dengan AI
+```
+
+**Cocok untuk:**
+- Pengguna Obsidian yang menerapkan Second Brain atau Zettelkasten
+- Pengorganisasian catatan belajar, ringkasan buku, dan ide kreatif
+- Membantu AI menghubungkan konsep-konsep lintas domain via `[[wiki links]]`
 
 ---
 

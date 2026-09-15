@@ -1,7 +1,7 @@
 {
   "name": "create-obsidian-memory",
-  "version": "1.1.0",
-  "description": "CLI tool to generate structured Obsidian-based persistent AI memory templates for web development, academic research, theory assignments, and career tracking.",
+  "version": "1.2.0",
+  "description": "CLI tool to generate structured Obsidian-based persistent AI memory templates for web development, academic research, theory assignments, career tracking, content creation, and personal knowledge management (PKM).",
   "main": "bin/cli.js",
   "bin": {
     "create-obsidian-memory": "bin/cli.js"
@@ -17,7 +17,10 @@
     "claude",
     "base-memory",
     "vibe-coding",
-    "template-generator"
+    "template-generator",
+    "second-brain",
+    "pkm",
+    "zettelkasten"
   ],
   "author": "rohmet",
   "license": "MIT",
